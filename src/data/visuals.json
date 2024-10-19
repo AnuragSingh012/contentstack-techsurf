@@ -1,0 +1,67 @@
+{
+    "navbar": {
+      "links": [
+        { "label": "Home", "href": "#home" },
+        { "label": "About Us", "href": "#about" },
+        { "label": "Services", "href": "#services" },
+        { "label": "Blog", "href": "#blog" }
+      ],
+      "logoText": "My Website",
+      "styles": {
+        "backgroundColor": "bg-white",
+        "textColor": "text-gray-800",
+        "hoverTextColor": "hover:text-blue-600",
+        "padding": "p-5",
+        "shadow": "shadow-md"
+      }
+    },
+    "sections": {
+      "home": {
+        "styles": {
+          "minHeight": "min-h-screen",
+          "alignment": "flex items-center justify-center",
+          "background": "bg-gradient-to-r from-black to-gray-800",
+          "textColor": "text-white"
+        },
+        "titleStyle": "text-5xl font-bold",
+        "subtitleStyle": "text-lg mt-4"
+      },
+      "about": {
+        "styles": {
+          "padding": "py-20",
+          "background": "bg-white",
+          "textColor": "text-gray-800"
+        },
+        "titleStyle": "text-4xl font-bold",
+        "descriptionStyle": "text-lg mt-4 text-gray-700"
+      },
+      "services": {
+        "styles": {
+          "padding": "py-20",
+          "background": "bg-gray-100",
+          "textColor": "text-gray-800"
+        },
+        "titleStyle": "text-4xl font-bold",
+        "descriptionStyle": "text-lg mt-4 text-gray-700"
+      },
+      "blog": {
+        "styles": {
+          "padding": "py-20",
+          "background": "bg-white",
+          "textColor": "text-gray-800"
+        },
+        "titleStyle": "text-4xl font-bold",
+        "descriptionStyle": "text-lg mt-4 text-gray-700"
+      }
+    },
+    "footer": {
+      "styles": {
+        "background": "bg-gray-800",
+        "textColor": "text-white",
+        "padding": "py-5",
+        "alignment": "text-center"
+      },
+      "text": "&copy; {year} My Website. All Rights Reserved."
+    }
+  }
+  
