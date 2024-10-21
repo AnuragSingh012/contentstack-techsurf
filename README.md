@@ -1,8 +1,35 @@
-# React + Vite
+# Dynamic Layout Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## <a name="introduction">🤖 Introduction</a>
+It is a versatile web design tool that allows users to create and customize layouts by importing data and adjusting components in real-time
 
-Currently, two official plugins are available:
+## <a name="tech-stack">⚙️ Tech Stack</a>
+- ReactJs
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## <a name="quick-start">Quick Start</a>
+
+Follow these steps to set up the project locally on your machine
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/AnuragSingh012/contentstack-techsurf.git
+cd contentstack-techsurf
+```
+
+**Install dependencies and start**
+
+```bash
+npm install && npm run dev
+```
+
+Create a `.env` file and add the following content:
+
+
+```env
+VITE_API_KEY=
+VITE_ACCESS_TOKEN=
+```
+
+Replace the placeholder values with your actual respective account credentials
