@@ -99,7 +99,7 @@ const RightSidebar = ({
           />
         </div>
       )}
-      {/* Show the save button only if data is imported and modified */}
+      
       {isDataImported && isDataModified && (
         <button
           onClick={saveChangesToContentstack}
