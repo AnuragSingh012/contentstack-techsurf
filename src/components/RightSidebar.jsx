@@ -48,24 +48,6 @@ const RightSidebar = ({
   };
 
 
-  const saveChangesToContentstack = async () => {
-    try {
-      const updatedFields = { ...selectedComponent };
-      const contentTypeUID = "ContentPage";
-      const entryUID = "your-entry-uid";
-
-      await Stack.ContentType(contentTypeUID).Entry(entryUID).update({
-        entry: updatedFields,
-      });
-
-      setIsDataModified(false);
-      console.log("Entry updated successfully");
-    } catch (error) {
-      console.error("Error saving data to Contentstack:", error);
-    }
-  };
-
-
   useEffect(() => {
     if (selectedComponent) {
       setJsonOutput(selectedComponent);
